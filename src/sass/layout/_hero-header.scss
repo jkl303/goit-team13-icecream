@@ -1,11 +1,27 @@
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1600px;
+}
 .header__indent {
-  background: #ffb8ca;
+  background: transparent;
+}
+
+.is-hidden {
+  left: -100%;
+  -webkit-transition: all ease-out 0.5s;
+  -moz-transition: all ease-out 0.5s;
+  -o-transition: all ease-out 0.5s;
+  transition: all ease-out 0.5s;
 }
 
 .menu-open-btn {
   width: 40px;
   height: 40px;
   background: transparent;
+  border: none;
 }
 
 .header__nav-mobile {
@@ -16,37 +32,34 @@
   padding-bottom: 8px;
 }
 
-.button__burger {
-  fill: white;
-}
-
 .mob-menu {
   position: absolute;
   top: 0;
   right: 0;
   width: 100%;
   height: 100%;
-  background-color: #e17992;
+  background-color: $modal-bg-color;
+  left: 0px;
+  -webkit-transition: all ease-out 0.5s;
+  -moz-transition: all ease-out 0.5s;
+  -o-transition: all ease-out 0.5s;
+  transition: all ease-out 0.5s;
 }
 
-// .is-hidden {
-//   opacity: 0;
-//   visibility: hidden;
-//   pointer-events: none;
-// }
 .close-menu-btn {
   background: transparent;
   position: absolute;
   top: 20px;
   right: 20px;
+  border: none;
 }
 
 .buy-now {
   height: 44px;
   margin-top: 60px;
-  background-color: white;
+  background-color: $background-color;
   align-items: center;
-  color: #d41443;
+  color: $main-title-color;
   text-align: center;
   padding-left: 49px;
   padding-right: 49px;
@@ -70,6 +83,10 @@
   justify-content: center;
 }
 
+.button__burger {
+  fill: #e18298;
+}
+
 .nav-menu__list {
   margin-top: 19px;
   padding: 0;
@@ -81,7 +98,7 @@
   line-height: calc(18 / 14);
   display: flex;
   align-items: center;
-  color: var(--background-color);
+  color: $background-color;
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 20px;
@@ -89,7 +106,7 @@
 
 .nav-menu__link:hover,
 .nav-menu__link:focus {
-  color: var(--main-title-color);
+  color: $main-title-color;
 }
 
 .nav-menu__item {
