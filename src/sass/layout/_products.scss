@@ -1,12 +1,5 @@
-h2,
-h3 {
-  font-family: 'Titan One', sans-serif;
-}
-p {
-  font-family: 'DM Sans', sans-serif;
-}
 .products {
-  padding: 60px 0;
+  padding-bottom: 60px;
 }
 .products-list {
   position: relative;
@@ -14,6 +7,7 @@ p {
 
 .label {
   margin-bottom: 15px;
+  font-family: 'Titan One', sans-serif;
   @include fonts(400, 18px, 1.17, 0.04em);
   text-align: center;
   color: $second-title-color;
@@ -21,6 +15,7 @@ p {
 
 .products-title {
   margin-bottom: 8px;
+  font-family: 'Titan One', sans-serif;
 
   @include fonts(400, 34px, 1.15, 0.04em);
   text-align: center;
@@ -52,6 +47,7 @@ p {
   margin-bottom: 32px;
   text-align: center;
   padding-top: 160px;
+  font-family: 'Titan One', sans-serif;
   @include fonts(400, 20px, 1.15, 0.04em);
   color: #fff;
 }
@@ -73,13 +69,18 @@ p {
   margin-right: auto;
   margin-bottom: 32px;
   width: 200px;
+  font-family: 'DM Sans', sans-serif;
   @include fonts(700, 14px, 1.15, 0.04em);
   text-align: center;
   color: #fff;
 }
 
-.products-icon {
+.products-button {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
+
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
 }
