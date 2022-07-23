@@ -11,10 +11,43 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="./sass/index.scss" />
   </head>
   <body>
-    <script type="module" src="./index.js"></script>
+    <header>
+      <div class="container header__indent">
+        <div class="header__nav-mobile">
+          <img src="./images/mobile/logo-1x.png" alt="logo" />
+          <button type="button" class="menu-open-btn">
+            <svg class="button__burger" width="20" height="12">
+              <use href="./images/mobile/sprite.svg#icon-burger"></use>
+            </svg>
+          </button>
+          <div class="mob-menu">
+            <button type="button" class="close-menu-btn">
+              <svg class="close-menu-icon" width="14" height="14">
+                <use href="./images/mobile/sprite.svg#icon-close"></use>
+              </svg>
+            </button>
+            <div class="btn-indend">
+              <button type="button" class="buy-now">Buy now
+                <span class="span-icon">
+                  <svg class="buy-now-icon" width="5.5" height="8">
+                    <use href="./images/mobile/sprite.svg#icon-arrow-right"></use>
+                  </svg>
+                </span>
+              </button>
+            </div>
+            <ul class="nav-menu__list">
+                    <li class="nav-menu__item"><a href="" class="nav-menu__link">Home</a></li>
+                    <li class="nav-menu__item"><a href="" class="nav-menu__link">About us</a></li>
+                    <li class="nav-menu__item"><a href="" class="nav-menu__link">How it’s made?</a></li>
+                    <li class="nav-menu__item"><a href="" class="nav-menu__link">Our products</a></li>
+                    <li class="nav-menu__item"><a href="" class="nav-menu__link">Contact</a></li>
+                </ul>
+          </div>
+        </div>
+    </header>
+    <script src="./mobile-menu.js"></script>
   </body>
 </html>
