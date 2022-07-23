@@ -79,8 +79,16 @@
   position: relative;
   left: 50%;
   transform: translateX(-50%);
+  width: 40px;
+  height: 40px;
 
   cursor: pointer;
-  background-color: transparent;
+  background-color: #fff;
+  border-radius: 50%;
   border: none;
+}
+
+.products-icon {
+  height: 10px;
+  fill: $main-title-color;
 }
