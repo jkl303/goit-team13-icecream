@@ -242,3 +242,36 @@ body {
 .hero-title-wrapper {
   margin-bottom: 20px;
 }
+
+// MODAL //
+
+.backdrop {
+  width: 100%;
+  height: 100%;
+  background-color: $background-color;
+}
+
+.modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 110;
+  background-color: $ellipse-color;
+}
+
+.close-modal-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  border: none;
+}
+
+.modal-title {
+  @include fonts(700, 14, 1.29, null);
+  color: $background-color;
+  padding-top: 50px;
+  text-align: center;
+}
