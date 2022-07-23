@@ -2,11 +2,7 @@
 .gallery{background-image: linear-gradient(
     to bottom, #FFF5F6 27px, #FAFAFA 27px);
    }
-.container--gallery {
-    max-width: 320px;
-    margin: 0 auto;
-    padding: 0;}
-    
+
 .gallery__list { display: grid;
 grid-template-columns: repeat(7, 44px);
 grid-template-rows: repeat(3, 44px);
