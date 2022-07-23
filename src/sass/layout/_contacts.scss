@@ -1,6 +1,6 @@
 .brunches {
   background-image: linear-gradient(#fff 20%, $background-color 20%);
-  padding: 40px 0;
+  padding-bottom: 40px;
 }
 
 .brunches__card {
@@ -104,6 +104,7 @@
 
 .modal-location {
   position: relative;
+  text-decoration: none;
 
   width: 161.45px;
   height: 44px;
@@ -203,7 +204,7 @@
   max-width: 320px;
   margin-left: auto;
   margin-right: auto;
-  padding: 40px;
+  padding: 20px;
 
   background-color: $modal-bg-color;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
